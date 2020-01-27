@@ -20,19 +20,19 @@ module c520_lid()
         }
         difference () {
             translate([3, 7, 3]) cube([8,6,7]);
-            translate([2, 10, 7]) rotate([0, 90, 0]) cylinder(h = 10, r = 1, $fn = 100);
+            translate([2, 10, 6.5]) rotate([0, 90, 0]) cylinder(h = 10, r = 1, $fn = 100);
         }
         difference () {
             translate([3, 82, 3]) cube([8,6,7]);
-            translate([2, 85, 7]) rotate([0, 90, 0]) cylinder(h = 10, r = 1, $fn = 100);
+            translate([2, 85, 6.5]) rotate([0, 90, 0]) cylinder(h = 10, r = 1, $fn = 100);
         }
         difference () {
             translate([134, 7, 3]) cube([8,6,7]);
-            translate([133, 10, 7]) rotate([0, 90, 0]) cylinder(h = 10, r = 1, $fn = 100);
+            translate([133, 10, 6.5]) rotate([0, 90, 0]) cylinder(h = 10, r = 1, $fn = 100);
         }
         difference () {
             translate([134, 82, 3]) cube([8,6,7]);
-            translate([133, 85, 7]) rotate([0, 90, 0]) cylinder(h = 10, r = 1, $fn = 100);
+            translate([133, 85, 6.5]) rotate([0, 90, 0]) cylinder(h = 10, r = 1, $fn = 100);
         }
     translate([3,3,0]) cube([139,4,5]);
     translate([3,88,0]) cube([139,4,5]);
